@@ -6,6 +6,7 @@ int main()
   int arr[] = {10, 20, 30, 40, 50};
   int n;
   n = sizeof(arr) / sizeof(int);
+  // maximum of array
   int max = arr[0];
   // int min = arr[0];
   for (int i = 0; i < n; i++)
@@ -18,6 +19,8 @@ int main()
 
   cout << max << endl;
   int min = arr[0];
+
+  // for minimum of array
 
   for (int i = 0; i < n; i++)
   {
