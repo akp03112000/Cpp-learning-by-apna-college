@@ -1,3 +1,4 @@
+// in bubble sort we just compare the two adjacent element and swap...
 #include <iostream>
 using namespace std;
 
